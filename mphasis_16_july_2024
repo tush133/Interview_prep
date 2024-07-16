@@ -1,0 +1,46 @@
+*coding question* 
+To flip the 5th least significant bit (LSB) of an unsigned int in C, you can use bitwise operations. Here’s how you can do it:
+
+Use a bit mask to identify the 5th bit.
+Use the XOR operator to flip that bit.
+
+##############################################################################################################################
+#include <stdio.h>
+
+unsigned int flip_5th_bit(unsigned int num) {
+    // 1 << 4 creates a bitmask with the 5th bit set to 1 (0b00010000)
+    unsigned int mask = 1 << 4;
+    // XOR the number with the mask to flip the 5th bit
+    return num ^ mask;
+}
+
+int main() {
+    unsigned int num = 29; // Example number
+    printf("Original number: %u\n", num);
+    unsigned int result = flip_5th_bit(num);
+    printf("Number after flipping 5th bit: %u\n", result);
+    return 0;
+}
+
+#############################################################################################################################
+
+
+Technical question:
+
+How you handle the bugs customer reported ?
+if you write an application , which is causing mem leak. how QA will know ?
+any bug you remembered ? and how you solved that ?
+
+How you read calltrace ?
+seg fault ?
+
+while writing the code,  which challanges you face ?
+
+GDB can not be used in kernel space, which tools you use ?
+
+which memory increase , when your app causes mem leak ?
+
+How to identify that your app is causing memory leak ?
+
+BRUSH UP how to handle bugs in driver code and coding part. 
+
