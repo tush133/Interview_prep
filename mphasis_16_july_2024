@@ -36,6 +36,8 @@ seg fault ?
 
 while writing the code,  which challanges you face ?
 
+most of the time it crashes.
+
 GDB can not be used in kernel space, which tools you use ?
 
 which memory increase , when your app causes mem leak ?
