@@ -1,0 +1,60 @@
+Logical questions:
+Q1) You have downloaded a 4 hour video.  You have a media player that supports playback of 1.25X, 1.5X & 2X speeds.
+What will be the playtime of the video in 1.25X, 1.5X, 2X ?
+
+PT = Play Time     TS = Time Saved
+1.25x : PT =03:00, TS = 01:00
+1.5x : PT = 02:25, TS = 01:75
+2.0x : PT = 02:00, TS = 02:00
+
+ 
+Q2) A furniture in the house is broken and you have 1 silver bar to pay for it.
+You find a carpenter and he has told that the cost to repair the furniture will be 1 silver bar.
+The carpenter will take 7 days to complete the repair work.
+But, since the carpenter cannot be trusted, you agree to pay him at the end of each day
+1) What is the most basic solution to pay the carpenter each day, how many cuts on silver bar?  How many peices and what is size of piece
+cuts = 6 , pieces = 7, size of piece = 1/7
+
+2) What is the least number of cuts to satisfy the requirement
+Hint : A portion of the bar given to carpenter can be taken back as long as end of day payment to carpenter is met
+=
+day one I will give 1/7.
+2nd 1/7 and will ask to give 1st one, I will give complete bar on 7th day.
+
+D1 - Carp - 1/7 , you - 6/7, cut -1
+2: C - 2/7    Y: 4/7+ 1/7 c 2
+3: C- 3/7   Y: 2/7 + 2/7 c 3
+4: C- 4/7  Y: 0 + 3/7   c  ------
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Basics of OS:
+IPC: types
+block and device drivers.
+why we should use device driver ?
+synchronization.
+what happens when pkt arrives to NIC ?
+Mutex
+semaphore
+monitor
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Coding:
+
+1 . find the size of struct.
+struct node {
+int a,
+char c;
+float d;
+char w;
+}node;
+
+2. reverse the link list.
+
+3. struct padding.
+
+
+
+
+
