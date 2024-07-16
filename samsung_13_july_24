@@ -1,0 +1,11 @@
+Coding question:
+
+multi-dimentional dynamic programming.
+
+N number of tiles. different h and w.
+
+K threshould.
+
+Select min diff. tiles from N.
+
+consider diff = MAX(|h1 -h2|, |w1-w2|) between 2 tiles.
