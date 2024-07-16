@@ -1,0 +1,13 @@
+What intersting things you have done before?
+realtime ques. like flushing reg. same time to save data . locking mechnism.
+How you will debug in dpdk ?
+performance issues ? how you will monitor stats with single / separate thread ? impelementation
+How data process in DPDK env ?
+if same app without any code change , performance drop then how you will debug it ? how to dump data in dpdk app.
+
+Coding:
+1. you are shopkeeper with 3 and 5 rs. change. customer asked for change for 100 rs.
+how many 3rs , 5rs or only 3 or 5 or combined or null you can give it to him.
+
+2. {1,2}{3,5}{4,6} time intervals. {3,5},{4,6} is overlapping so merge it {3,6} and again look for over lap is there or not.
+merge sort algorithm
