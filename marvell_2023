@@ -1,0 +1,7 @@
+JD: Crypto Staff Engineer
+Generic questions what you are currently working on ?
+How crypto works ? QAT with DPDK
+What is IPsec ? how it works ?
+XOR operation function with memcmp
+are you ever tried changing kernel config for QAT/ modifiying PCIe
+Programming que. addition of 2 128 bits with 64+64 struct. in C, similar to https://www.codeproject.com/Tips/617214/UInt-Addition-Subtraction
