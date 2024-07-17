@@ -37,6 +37,7 @@ synchronization.
 what happens when pkt arrives to NIC ?
 Mutex
 semaphore
+spinlock
 monitor
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
